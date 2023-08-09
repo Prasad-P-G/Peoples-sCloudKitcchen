@@ -1,0 +1,21 @@
+/*  {
+    font-weight: bold;
+} */
+/* .navbar-expand-lg .navbar-nav .nav-link{
+    color: green;
+} */
+.navbar-nav .nav-link.active-link {
+    color:var(--primary-color);
+    font-weight: bold;
+    background-color: var(--secondary-color);
+}
+.navbar-brand p {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 25px;
+}
+/* .navbar-nav{
+    flex: auto;
+    justify-items: end;
+    flex-direction:right;
+} */

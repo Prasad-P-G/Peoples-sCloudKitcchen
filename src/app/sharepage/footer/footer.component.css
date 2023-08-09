@@ -1,0 +1,31 @@
+.footer{
+    background-color:#2e2424fa;    
+    position: sticky;
+    top: 100%;
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary-color);    
+}
+p{
+    font-size: 14px;
+    color: goldenrod;
+}
+a{
+    color: var(--primary-color);
+    padding: 5px 5px;
+    text-decoration: none;
+       
+}
+a:hover{
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: #f8f3f3c8;
+}
+i{
+    color: var(--primary-color);
+    
+}

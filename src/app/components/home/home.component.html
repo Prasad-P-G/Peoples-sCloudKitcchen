@@ -1,0 +1,51 @@
+<div class="banner">
+    <div class="Content">
+        <h2>Fresh coocked recipe <br> at your door step</h2>
+        <a class="viewMoreBtn" routerLink="menu"><span>Order Now</span><i class="bi bi-arrow-right-square-fill"></i></a>
+    </div>
+</div>
+
+<!-- stepbox -->
+
+<div class="container mb-5">
+    <h3 style="text-align: center;">Way to get <span class="highlight" >fresh food</span></h3>
+    <div class="row">
+
+        <div class="col-lg-4 mb-2">
+            <div class="stepbox">
+                <h4>1</h4>
+                <p>Select the food</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-2">
+            <div class="stepbox">
+                <h4>2</h4>
+                <p>Fill contact details</p>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-2">
+            <div class="stepbox">
+            <h4>3</h4>
+            <p>Your order will be delivered in minutes</p>
+            </div>            
+        </div>
+    </div>
+</div>
+
+<!-- foodbox -->
+<div class="container mt-5 mb-5">
+    <h3 class="text-center">Customer <span class="highlight">favourite foods</span></h3>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let item of foodData;index as i">
+                <div class="foodBox" *ngIf="i<=3">
+                    <img src="{{item.foodImage}}">
+                    <h1>{{item.foodName}}</h1>
+                    <p>{{item.foodPrice | currency:'INR'}}</p>
+                </div>
+        </div>       
+    </div>
+    <a routerLink="menu" class="viewMoreBtn"><span>View More</span><i class="bi bi-arrow-right-square-fill"></i></a>
+</div>

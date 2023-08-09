@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color: rgb(63, 75, 190);
+    --secondary-color:#dfd8d8;
+}
+body{      
+    height: 100vh; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.viewMoreBtn{
+    text-decoration: none;
+    background-color: #129350fa;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
